@@ -16,7 +16,8 @@ clipboard should be considered public data.
 
 ## Recommendations
 
-The Android platform should implement a `READ_CLIPBOARD` permission so users
+The Android platform should implement a `READ_CLIPBOARD` permission or a
+`PasswordEditText` with a supported `PICK_PASSWORD` intent action so users
 have more control over what apps have access to the system clipboard.
 
 ## License
