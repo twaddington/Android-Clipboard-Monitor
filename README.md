@@ -3,6 +3,16 @@
 This is a sample Android project that monitors the system's ClipboardManager
 for changes and logs the clipboard text to a file.
 
+## Update (2019-11-26)
+
+This issue is completely mitigated in Android 10 with this change:
+
+> **Limited access to clipboard data**
+>
+> Unless your app is the default input method editor (IME) or is the app that currently has focus, your app cannot access clipboard data on Android 10 or higher.
+
+https://developer.android.com/about/versions/10/privacy/changes#clipboard-data
+
 ## Security
 
 An electronic clipboard is insecure by nature. Such a system is designed to
